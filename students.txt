@@ -1,0 +1,38 @@
+<template>
+  {{ allStudents }}
+</template>
+
+<script>
+import axios from 'axios'
+
+export default {
+  name: 'homePage',
+  components: {},
+  data(){
+    return {
+      allStudents: 'testandoooooo'
+    }
+  },
+  methods: {
+    getStudents(){
+      const students = {
+        method: 'GET',
+        url: "http://localhost:9000/students",
+      };
+
+      axios(students)
+        .then((res) => {
+          this.allStudents = res.data
+        })
+        .catch((error => {
+          console.log(error)
+        }))
+      }
+
+      //alert('peguei os estudantes')
+    },
+  created(){
+    this.getStudents()
+  }
+}
+</script>

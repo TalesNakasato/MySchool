@@ -1,0 +1,6 @@
+o que temos que ter em uma escola?
+- Professores (ativos, inativos e softdelete)
+- Alunos (ativos, inativos e softdelete)
+- Disciplinas
+- Turmas com diversas Disciplinas com niveis basico, medio e avançado
+- Níveis (basico, medio e avançado)

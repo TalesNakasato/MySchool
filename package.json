@@ -1,0 +1,44 @@
+{
+  "name": "my-school",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "core-js": "^3.29.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.1",
+    "path": "^0.12.7",
+    "roboto-fontface": "*",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.3.2",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "nodemon": "^2.0.22",
+    "sass": "^1.60.0",
+    "vite": "^4.3.8",
+    "vite-plugin-vuetify": "^1.0.0"
+  },
+  "description": "## Project setup",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
